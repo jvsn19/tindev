@@ -1,0 +1,22 @@
+{
+  "name": "tindev-backend",
+  "version": "1.0.0",
+  "description": "tindev REST API",
+  "main": "index.js",
+  "author": "Joao Vasconcelos",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "development": "nodemon --exec babel-node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "nodemon": "^2.0.2"
+  }
+}
