@@ -9,6 +9,7 @@ routes.get('/', (req, res) => {
     })
 })
 
+routes.get('/devs', DevController.index)
 routes.post('/dev', DevController.store)
 
 export default routes
